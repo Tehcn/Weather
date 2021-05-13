@@ -1,0 +1,1 @@
+"tscompile": "tsc --build tsconfig.json"
