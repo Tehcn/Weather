@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/awesomehelper/Weather/issues"
   },
-  "homepage": "https://github.com/awesomehelper/Weather#readme"
+  "homepage": "https://github.com/awesomehelper/Weather#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
 }

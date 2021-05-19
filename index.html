@@ -4,12 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" type="module"></script>
-    <script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
 </head>
 <body>
-    
+	<div id="container">
+		<div id="weather-container">
+			<h1>Current Weather</h1>
+			<h2 id="weather-header">Loading...</h2>
+			<h3 id="weather-description">Loading...</h3>
+			<p id="temperature">Loading...</p>
+			<p id="humidity">Loading...</p>
+			<p id="wind-speed">Loading...</p>
+			<p id="cloud-cover"></p>
+		</div>
+		<div id="alert-container">
+			<h1>Weather Alerts</h1>
+			<h2 id="alert-header">Loading...</h2>
+			<p id="alert-description">Loading...</p>
+		</div>
+	</div>
 </body>
 </html>

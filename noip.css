@@ -1,9 +1,0 @@
-body {
-    font-family: sans-serif;
-}
-
-h1,p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
